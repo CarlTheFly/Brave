@@ -15,22 +15,25 @@
         }
         header {
             background-color: #4CAF50;
-            color: white;
+            color: white; /* White text for header */
             padding: 20px 0;
         }
         main {
             padding: 20px;
         }
-        p {
-            color: white; /* Ensure the text is white */
-        }
         footer {
             background-color: #1d33e7;
-            color: white;
+            color: white; /* White text for footer */
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        img {
+            width: 100%;  /* Image takes up the full width */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 80vh; /* Limit height to 80% of viewport height */
+            object-fit: cover; /* Ensures image covers space properly */
         }
     </style>
 </head>
@@ -40,7 +43,7 @@
     </header>
     <main>
         <p>This is the home page of the grand old fly. View him below</p>
-        <img src="carl-the-fly.png" alt="Carl the Fly">
+        <img src="carl-the-fly.jpg" alt="Carl the Fly">
     </main>
     <footer>
         &copy; 2120 CarldaFly
